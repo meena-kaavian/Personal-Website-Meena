@@ -111,7 +111,6 @@ const App = () => {
                 <p>MongoDB</p>
               </div>
             </div>
-
           </div>
           <div className='skills-technical'>
             <h1 className='skills-technical-experience-heading'>Skills</h1>
