@@ -1,0 +1,164 @@
+.personal-website-full-container{
+  background: linear-gradient(to left, rgb(66, 63, 63), #000000);
+  width:100%;
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-attachment: fixed;
+}
+.header{
+   width:100%;
+   height:10%;
+   display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+.header a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 0 10px; 
+}
+.content-container{
+  display: flex;
+  width:100%;
+  height:90%;
+}
+.content{
+  width:60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align:left;
+  color:#ffffff;
+  text-align: left;
+}
+.image{
+  width:40%;
+  display: flex;
+  align-items: center;
+}
+.circle-container{
+  border-radius: 50%;
+  border: 5px solid #264EF8;
+  height:400px;
+  width:400px;
+  background-image: url('../public/meena.jpeg');
+  background-size: cover;
+}
+.sub-name{
+  color:#264EF8
+}
+.sub-heading-content{
+  margin-right:10px;
+}
+.content-sub-container{
+  width: 60%;
+  font-size: 22px;
+}
+.second-container{
+  width: 100%;
+  height:100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header a.active-link {
+  border-bottom: 4px solid #264EF8;
+}
+.progress-bar-container{
+  width: 25%;
+  height:100%;
+  /* background: linear-gradient(to bottom, rgb(136, 126, 126), #000000); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 8px;
+  padding-left: 70px;
+}
+.skills-container{
+  width:70%;
+  height:100%;
+}
+.skills-languages{
+  width:100%;
+  height:50%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.skills-technical{
+  width:100%;
+  height:47%;
+}
+.skills-images{
+  width:60px;
+  height:50px;
+}
+.images-section-skills{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.images-section-skills-section{
+  display: flex;
+  width:100%;
+  justify-content: space-around;
+}
+.skills-languages-heading{
+  height: 0px;
+  margin-left:20px;
+}
+.skills-technical-experience-heading{
+  margin-left:20px;
+  font-style:italic;
+}
+.experience-content{
+    width: 80%;
+    margin-left: 105px;
+    line-height: 40px;
+    font-size: 23px;
+}
+.progress-points{
+  background-color: #264EF8;
+  color:white;
+  font-weight: bold;
+  padding-left:30px;
+}
+.progress-bar{
+  background-color: lightgray;
+  width:70%;
+  border-radius: 20px;
+  margin-bottom:10px;
+}
+.progress-bar-container-heading{
+  color:black;
+  margin-bottom: 35px;
+}
+.react{
+  width:80%;
+}
+.node{
+  width:60%;
+}
+.css{
+  width:80%;
+}
+.mongoDB{
+  width:50%
+}
+.js{
+  width:80%;
+}
+.sub-skills-name{
+  color:black;
+  font-size: 20px;
+}
+.skills-list{
+  line-height: 40px;
+}
