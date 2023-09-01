@@ -162,3 +162,52 @@
 .skills-list{
   line-height: 40px;
 }
+
+@media only screen and (max-width: 600px) {
+  .header{
+    display: none;
+  }
+  .content-container{
+    flex-direction: column-reverse;
+    padding-bottom: 40px;
+  }
+  .personal-website-full-container{
+    height: unset;
+  }
+  .image{
+    width:100%;
+    justify-content: center;
+    padding-top:40px;
+
+  }
+  .circle-container{
+    height: 200px;
+    width: 200px;
+  }
+  .content-sub-container{
+    width:100%;
+    font-size: 15px;
+    text-align:center;
+  }
+  .content{
+    width:100%;
+    height:unset;
+    line-height: 34px;
+  }
+  .second-container{
+    display: flex;
+    flex-direction: column;
+    height:unset;
+  }
+  .progress-bar-container{
+    width:100%;
+  }
+  .skills-container {
+    width:unset;
+    height:unset;
+    padding:10px;
+  }
+  .skills-languages{
+    display:none;
+  }
+}
